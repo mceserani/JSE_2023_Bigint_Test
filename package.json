@@ -1,0 +1,22 @@
+{
+  "name": "jse_2023_bigint_test",
+  "version": "1.0.0",
+  "description": "Testing a program that permorm factorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mceserani/JSE_2023_Bigint_Test.git"
+  },
+  "author": "Matteo Ceserani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mceserani/JSE_2023_Bigint_Test/issues"
+  },
+  "homepage": "https://github.com/mceserani/JSE_2023_Bigint_Test#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
