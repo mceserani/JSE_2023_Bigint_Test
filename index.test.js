@@ -1,6 +1,6 @@
 'use strict'
 
-const factorial = require('./index.js');
+const factorial = require('./factorial.js');
 
 describe('factorial', () => {
 
@@ -29,11 +29,14 @@ describe('factorial', () => {
     });
     
     test('should return "Il numero deve essere non negativo" when n = -1', () => {
-        expect(factorial(-1)).toBe("Il numero deve essere non negativo");
-    });
+        expect(factorial(-1)).toBe("Il numero deve essere non negativo");});
     
     test('should return "Il numero deve essere intero" when n = 1.5', () => {
         expect(factorial(1.5)).toBe("Il numero deve essere intero");
     });
-    
+
+    test('should return "Il numero deve essere intero" when n = "a"', () => {
+        expect(factorial("a")).toBe("Il numero deve essere intero");
+    });
+
 });
